@@ -1,0 +1,40 @@
+header {
+  background-color: #ffffffef;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  padding: 1rem 2rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+a {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.2s ease;
+}
+
+a svg {
+  color: inherit;
+}
+
+.menu {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1rem;
+}
+
+/* pseudo classes */
+a:hover {
+  color: #6d6e70;
+  cursor: pointer;
+}
